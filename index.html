@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keith's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <i id="theme-icon" class="fas fa-moon"></i>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1>Keith's Portfolio</h1>
+    <p>Frontend Developer | Interactive Projects</p>
+  </header>
+
+  <!-- Portfolio Grid -->
+  <section class="portfolio-grid">
+    <div class="card" data-title="Project 1" data-desc="This is project 1 description." data-img="https://via.placeholder.com/400x250">
+      <img src="https://via.placeholder.com/400x250" alt="Project 1">
+      <h3>Project 1</h3>
+    </div>
+    <div class="card" data-title="Project 2" data-desc="This is project 2 description." data-img="https://via.placeholder.com/400x250">
+      <img src="https://via.placeholder.com/400x250" alt="Project 2">
+      <h3>Project 2</h3>
+    </div>
+    <div class="card" data-title="Project 3" data-desc="This is project 3 description." data-img="https://via.placeholder.com/400x250">
+      <img src="https://via.placeholder.com/400x250" alt="Project 3">
+      <h3>Project 3</h3>
+    </div>
+    <!-- Add more cards as needed -->
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <img id="modal-img" src="" alt="Project Image">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <a href="https://wa.me/your-number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/yourhandle" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
